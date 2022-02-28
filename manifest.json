@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Twitch title command",
+    "description": "Generate clickable Twitch commands within stream's title",
+    "version": "1.0.0",
+
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "src/index.html"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://twitch.tv/*", "https://www.twitch.tv/*"],
+        "js": ["ttc.js"]
+    }],
+
+    "permissions": [
+        "activeTab"
+    ]
+}

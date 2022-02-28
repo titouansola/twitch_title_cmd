@@ -1,0 +1,25 @@
+{
+  "name": "twitch_title_cmd",
+  "description": "Generate clickable Twitch commands within stream's title",
+  "version": "1.0.0",
+  "author": "Titouan Sola",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titouansola/twitch_title_cmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titouansola/twitch_title_cmd/issues"
+  },
+  "homepage": "https://github.com/titouansola/twitch_title_cmd#readme",
+  "scripts": {
+      "start": "parcel src/index.js"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
